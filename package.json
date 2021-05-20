@@ -1,0 +1,25 @@
+{
+  "name": "vite-plugin-vue-svg-reactive-loader",
+  "version": "0.0.1",
+  "description": "vite插件，以vue组件的形式加载svg文件，并且自动为svg添加viewBox属性，使svg可以自适应缩放",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiuWenXing1996/vite-plugin-vue-svg-reactive-loader.git"
+  },
+  "dependencies": {
+    "postsvg": "^2.2.7"
+  },
+  "keywords": [
+    "vite-plugin",
+    "vite-plugin-vue",
+    "svg-loader"
+  ],
+  "author": "LiuWenXing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiuWenXing1996/vite-plugin-vue-svg-reactive-loader/issues"
+  },
+  "homepage": "https://github.com/LiuWenXing1996/vite-plugin-vue-svg-reactive-loader#readme"
+}
