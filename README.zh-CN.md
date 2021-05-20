@@ -15,12 +15,19 @@ vite 2.x插件，以vue组件的形式加载svg文件，并且自动为svg添加
 
 ```html
 <template>
-  <MyIcon />
+  <MyIcon class="my-icon"/>
 </template>
 
 <script setup>
 import MyIcon from './my-icon.svg'
 </script>
+
+<style scoped>
+.my-icon {
+    height: 14px;
+    width: 14px;
+    fill: aqua;
+}
 ```
 
 ### 安装

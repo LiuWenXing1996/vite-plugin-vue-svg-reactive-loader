@@ -15,12 +15,20 @@ Vite 2.x plugin, loads SVG files as Vue components, and automatically adds the [
 
 ```html
 <template>
-  <MyIcon />
+  <MyIcon class="my-icon"/>
 </template>
 
 <script setup>
 import MyIcon from './my-icon.svg'
 </script>
+
+<style scoped>
+.my-icon {
+    height: 14px;
+    width: 14px;
+    fill: aqua;
+}
+</style>
 ```
 
 ### Install
