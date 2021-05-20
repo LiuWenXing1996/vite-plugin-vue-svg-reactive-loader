@@ -1,13 +1,13 @@
-English | [简体中文](./README.zh-CN.md) 
+[English](./README.md) | 简体中文 
 
 ---
 
-**:blush: based on [vite-svg-loader](https://github.com/jpkleemans/vite-svg-loader).**
+**:blush: 基于 [vite-svg-loader](https://github.com/jpkleemans/vite-svg-loader).**
 
 ---
 
 # vite-plugin-vue-svg-reactive-loader
-Vite 2.x plugin, loads SVG files as Vue components, and automatically adds the [`viewBox`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox) attribute to the svg, so that the svg can be adaptively zoomed.
+vite 2.x插件，以vue组件的形式加载svg文件，并且自动为svg添加viewBox属性，使svg可以自适应缩放
 
 <a href="https://www.npmjs.com/package/vite-plugin-vue-svg-reactive-loader" target="_blank"><img src="https://img.shields.io/npm/v/vite-plugin-vue-svg-reactive-loader?style=flat-square" alt="Version"></a>
 <a href="https://www.npmjs.com/package/vite-plugin-vue-svg-reactive-loader" target="_blank"><img src="https://img.shields.io/npm/dw/vite-plugin-vue-svg-reactive-loader?style=flat-square" alt="Downloads"></a>
@@ -23,12 +23,12 @@ import MyIcon from './my-icon.svg'
 </script>
 ```
 
-### Install
+### 安装
 ```bash
 npm install vite-plugin-vue-svg-reactive-loader --save-dev
 ```
 
-### Setup
+### 设置
 
 #### `vite.config.js`
 ```js
@@ -39,9 +39,8 @@ export default {
 }
 ```
 
-### Use with TypeScript
-If you use the loader in a Typescript project, you might get warnings like `Type 'string' is not assignable to type 'Component'`.
-To fix this you'll need to add the following type definitions to your compiler options:
+### 和TypeScript一起使用
+如果你在TypeScript项目中使用此loader，你也许会收到类似警告`Type 'string' is not assignable to type 'Component'`。要解决此问题，您需要在编译器选项中添加以下类型定义：
 
 #### `tsconfig.json`
 ```json
